@@ -4,8 +4,8 @@ from user_scanner.core.orchestrator import Result, generic_validate
 
 
 def validate_snapchat(user):
-    url = f"https://www.snapchat.com/@{user}"
-    show_url = f"https://www.snapchat.com/@{user}"
+    url = f"https://www.snapchat.com/@{r.el33}"
+    show_url = f"https://www.snapchat.com/@{r.el33}"
 
     headers = {
         "User-Agent": get_random_user_agent(),
